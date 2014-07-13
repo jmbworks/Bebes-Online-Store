@@ -1,0 +1,19 @@
+<?php
+define('_DB_SERVER_', 'localhost');
+define('_DB_NAME_', 'presta');
+define('_DB_USER_', 'root');
+define('_DB_PASSWD_', 'root');
+define('_DB_PREFIX_', 'ps_');
+define('_MYSQL_ENGINE_', 'InnoDB');
+define('_PS_CACHING_SYSTEM_', 'CacheMemcache');
+define('_PS_CACHE_ENABLED_', '0');
+define('_MEDIA_SERVER_1_', '');
+define('_MEDIA_SERVER_2_', '');
+define('_MEDIA_SERVER_3_', '');
+define('_COOKIE_KEY_', 'rI9fc7G4pNIjpcGGagi9aMzpbWJoD5AeAEu6YhE3WKiZxxhgCJCWSESG');
+define('_COOKIE_IV_', '9pkWHuM7');
+define('_PS_CREATION_DATE_', '2014-07-13');
+if (!defined('_PS_VERSION_'))
+	define('_PS_VERSION_', '1.6.0.8');
+define('_RIJNDAEL_KEY_', '8MIb3K0Cm12GU77ZZNL1zW1Kz6e2AMeU');
+define('_RIJNDAEL_IV_', 'Ow1uU1Ovq8rpkafccRBMnw==');
